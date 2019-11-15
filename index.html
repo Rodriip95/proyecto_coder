@@ -2,142 +2,164 @@
 <html>
 <head>
 	<title>index</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="archivo.css">
 	<link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1>
-		<a href="index.html" id="home">BAR BAZ</a>
-	</h1>
-	<hr/>
-	<div class="nav">
-	    <a href="recomendaciones.html">MENU</a>
-	    <a href="#formulario">COMENTARIOS</a>
-	    <a href="#contact">CONTACTOS</a>
-	    <div class="submenu">Nosotros
-	    	<a href="">SINCE 1962</a>
-		    <a href="">UBICACION</a>
-		    <a href="">TRABAJA EN BARBAZ</a>
-	    </div>
-  	</div> 
-	<hr/>
-	<br>
-	<br>
-		<div id="contenedorFlex">
-			<div>
-				<a href="recomendaciones.html"><img src="beer1.png" style="width: 150px; height: 150px;"></a>
+	<!--Header-->
+	<div class="header_background">
+		<div class="header_logo">
+			<h1>
+				<a href="index.html" class="logo">BAR BAZ</a>
+			</h1>
+		</div>
+		<hr/>
+		<div class="header_nav">
+			<div class="header_nav_opcion">
+				<a href="recomendaciones.html">MENU</a>
 			</div>
-			<div>
-				<a href="recomendaciones.html"><img src="beer3.png" style="width: 150px; height: 150px;"></a>
+			<div class="header_nav_opcion">
+				<a href="#formulario">COMENTARIOS</a>
 			</div>
-			<div>
-				<a href="recomendaciones.html"><img src="beer2.png" style="width: 150px; height: 150px;"></a>
+			<div class="header_nav_opcion">
+				<a href="#contact">CONTACTOS</a>
+			</div>
+			<div class="header_nav_submenu header_nav_opcion">NOSOTROS
+				<div class="submenu_content">
+					<a href="#">UBICACION</a>
+					<a href="#">EVENTOS</a>
+					<a href="#">TRABAJA EN BAR</a>
+					<a href="#">SINCE 1986</a>
+				</div>
 			</div>
 		</div>
-	<br>
-	<div id="desc_inicio">
-		<video src="videobar.mp4" controls>
-			<code>video</code>
-		</video>
-		<br>
-		<div>
-			Como su nombre lo indica, la cerveza artesanal es aquella que está elaborada siguiendo una “receta” propia, por maestros cerveceros que le dan un sabor distinto y personal; por lógica su producción es  limitada, ya que se pone especial atención en sabores y texturas distintas a las marcas industriales.
-			Una cerveza artesanal tiene las siguientes ventajas sobre las industriales:
-		    No contiene elementos artificiales, ni en el proceso ni en los ingredientes, el fermentado es natural y los sabores son el resultado de la mezcla de agua, malta, lúpulo y levadura; adicionalmente contiene frutas, especias y hierbas que unidas a la técnica del maestro cervecero, darán un sabor y un aroma único y especial a esa cerveza.
-		    Es innovadora, ya que podemos crear combinaciones de sabores a gusto de nuestros clientes.
-		    Es independiente y social, ya que al no pertenecer a los grandes corporativos, las ganancias se quedan en la localidad ayudando a su economía.
-			Es decir, la cerveza artesanal ofrece calidad, diversidad y atención personal; en lugar de precios bajos, mala calidad, restricción en sabores y publicidad.
-			En México existen dos grandes consorcios cerveceros que han dificultado el desarrollo de la industria de la cerveza artesanal mexicana; sin embargo, ha comenzado a popularizarse su consumo.
-			Atrévete a probar nuestros sabores, distintos a los conocidos, totalmente naturales y deliciosos!
+		<hr/>
+	</div>
+	<!--Main Content-->
+	<div class="main_content">
+		<div class="main_content_grid">
+			<div class="main_content_row">
+				<img src="foto1.jpg" alt="bar" width="100%">
+				<img src="foto2.jpg" alt="bar" width="100%">
+				<img src="foto3.jpg" alt="bar" width="100%">
+				<img src="foto4.jpg" alt="bar" width="100%">
+			</div>
+		</div>
+		<div class="main_content_icons">
+				<a href="recomendaciones.html"><img src="beer1.png" alt="beer"></a>
+				<a href="recomendaciones.html"><img src="beer3.png" alt="beer"></a>
+				<a href="recomendaciones.html"><img src="beer2.png" alt="beer"></a>
+		</div>
+		<div class="main_content_info">
+			<video src="videobar.mp4" controls>
+				<code>video</code>
+			</video>
+			<div class="main_content_description">
+				Como su nombre lo indica, la cerveza artesanal es aquella que está elaborada siguiendo una “receta” propia, por maestros cerveceros que le dan un sabor distinto y personal; por lógica su producción es  limitada, ya que se pone especial atención en sabores y texturas distintas a las marcas industriales.
+				Una cerveza artesanal tiene las siguientes ventajas sobre las industriales:
+				No contiene elementos artificiales, ni en el proceso ni en los ingredientes, el fermentado es natural y los sabores son el resultado de la mezcla de agua, malta, lúpulo y levadura; adicionalmente contiene frutas, especias y hierbas que unidas a la técnica del maestro cervecero, darán un sabor y un aroma único y especial a esa cerveza.
+				Es innovadora, ya que podemos crear combinaciones de sabores a gusto de nuestros clientes.
+				Es independiente y social, ya que al no pertenecer a los grandes corporativos, las ganancias se quedan en la localidad ayudando a su economía.
+				Es decir, la cerveza artesanal ofrece calidad, diversidad y atención personal; en lugar de precios bajos, mala calidad, restricción en sabores y publicidad.
+				En México existen dos grandes consorcios cerveceros que han dificultado el desarrollo de la industria de la cerveza artesanal mexicana; sin embargo, ha comenzado a popularizarse su consumo.
+				Atrévete a probar nuestros sabores, distintos a los conocidos, totalmente naturales y deliciosos!
+			</div>
+		</div>
+		<div class="main_content_form">
+			<form id="formulario">
+				<fieldset>
+					<legend>Tu comentario es importante!</legend>
+					<br>
+					<div>Completa el formulario y te enviaremos un descuento via mail para la proxima visita</div>
+					<br>
+					<div>Nombre y Apellido:
+						<br>
+						<br>
+						<input type="text" name="nombre">
+					</div>
+					<br>
+					<div>Mail:
+						<br>
+						<br>
+						<input type="email" name="ej_mail" placeholder="nombre@ejemplo.com">
+					</div>
+					
+					<br>
+					<div>Que Burger comiste?:
+					<select name="burgers">
+						<option value="bch">Chys</option>
+						<option value="bcr">Criolla</option>
+						<option value="bpy">Pay</option>
+					</select>
+					</div>
+					<br>
+					<div>Que Papas probaste?:
+					<select name="papas">
+						<option value="pb">Baston</option>
+						<option value="pr">Rusticas</option>
+						<option value="ph">House</option>
+					</select>
+					</div>
+					<br>
+					<div>Que cerveza tomaste?:
+						<select name="cervezas">
+							<option value="cb">Blonde</option>
+							<option value="cs">Scottish</option>
+							<option value="ci">IPA</option>
+						</select>
+					</div>
+					<br>
+					<br>
+					
+					<div>Que salsas te gustaron?</div>
+					<br>
+					<div>
+						Criolla
+						<input type="checkbox" name="salsa_criolla" value="1" />
+						Barbacoa
+						<input type="checkbox" name="salsa_barbacao" value="1" />
+						Picante
+						<input type="checkbox" name="salsa_picante" value="1" />
+					</div>
+					<br>
+					<div>Tenes alguna recomendacion para nosotros?
+						<br>
+						<br>
+						<textarea rows="5" cols="15"></textarea>
+					</div>
+					<br>
+					<br>
+					<div>Volverias a visitarnos?</div>
+					<div>SI	
+						<input type="radio" name="visita" value="si">
+						NO	
+						<input type="radio" name="visita" value="no">
+					</div>
+					<br>
+					<input type="submit" name="envia_datos" value="Enviar encuesta" id="boton_enviar">	
+					<input type="reset" name="reset_datos" value="Borrar" id="boton_borrar">
+					<br>
+				</fieldset>
+			</form>
 		</div>
 	</div>
-	<form id="formulario">
-		<fieldset>
-			<legend>Tu comentario es importante!</legend>
-			<br>
-			<div>Completa el formulario y te enviaremos un descuento via mail para la proxima visita</div>
-			<br>
-			<div>Nombre y Apellido:
-				<br>
-				<br>
-				<input type="text" name="nombre">
-			</div>
-			<br>
-			<div>Mail:
-				<br>
-				<br>
-				<input type="email" name="ej_mail" placeholder="nombre@ejemplo.com">
-			</div>
-			
-			<br>
-			<div>Que Burger comiste?:
-			<select name="burgers">
-			    <option value="bch">Chys</option>
-			    <option value="bcr">Criolla</option>
-			    <option value="bpy">Pay</option>
-			</select>
-			</div>
-			<br>
-			<div>Que Papas probaste?:
-			<select name="papas">
-			    <option value="pb">Baston</option>
-			    <option value="pr">Rusticas</option>
-			    <option value="ph">House</option>
-			</select>
-			</div>
-			<br>
-			<div>Que cerveza tomaste?:
-				<select name="cervezas">
-				    <option value="cb">Blonde</option>
-				    <option value="cs">Scottish</option>
-				    <option value="ci">IPA</option>
-				</select>
-			</div>
-			<br>
-			<br>
-			
-			<div>Que salsas te gustaron?</div>
-			<br>
-			<div>
-				Criolla
-				<input type="checkbox" name="salsa_criolla" value="1" />
-				Barbacoa
-				<input type="checkbox" name="salsa_barbacao" value="1" />
-				Picante
-				<input type="checkbox" name="salsa_picante" value="1" />
-			</div>
-			<br>
-			<div>Tenes alguna recomendacion para nosotros?
-				<br>
-				<br>
-				<textarea rows="5" cols="15"></textarea>
-			</div>
-			<br>
-			<br>
-			<div>Volverias a visitarnos?</div>
-			<div>SI	
-				<input type="radio" name="visita" value="si">
-				NO	
-				<input type="radio" name="visita" value="no">
-			</div>
-    		<br>
-			<input type="submit" name="envia_datos" value="Enviar encuesta" id="boton_enviar">	
-			<input type="reset" name="reset_datos" value="Borrar" id="boton_borrar">
-			<br>
-		</fieldset>
-	</form>
-	<br>
-	<br>
-	<section id="contact">
-		<ul>
-			<li>Direccion: Calle Falsa 123</li>
-			<li>Tel: 1123456789</li>
-			<li>Redes:</li>
-				<ul>
-					<li>FB: Resto1</li>
-					<li>IG: @Resto1</li>
-				</ul>
-		</ul>
-	</section>
+	<!--FOOTER-->
+	<div class="footer">
+		<section id="contact">
+			<ul>
+				<li>Direccion: Calle Falsa 123</li>
+				<li>Tel: 1123456789</li>
+				<li>Redes:</li>
+					<ul>
+						<li>FB: Resto1</li>
+						<li>IG: @Resto1</li>
+					</ul>
+			</ul>
+		</section>
+		<div class="footer_endpage">
+			<a href="index.html" class="logo_end">BAR BAZ</a>
+		</div>
+	</div>
 </body>
 </html>
