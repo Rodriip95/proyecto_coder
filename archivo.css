@@ -10,15 +10,15 @@
 body{
 	box-sizing: border-box;
 	margin: auto;
+	background-image: url(fondobody.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*ESTILOS PARA HEADER*/
 
 .header_background{
-	background-image: url(fondobody.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	height: 720px;
 }
 
