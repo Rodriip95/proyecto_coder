@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_coder",
+  "version": "1.0.0",
+  "description": "integrador",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss style.scss style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodriip95/proyecto_coder.git"
+  },
+  "author": "rpenela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodriip95/proyecto_coder/issues"
+  },
+  "homepage": "https://github.com/Rodriip95/proyecto_coder#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4"
+  }
+}
