@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   margin: auto;
-  background-image: url(fondobody.jpg);
+  background-image: url(images/fondobody.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -197,7 +197,7 @@ dd {
     text-align: center; }
   .main_content_row {
     display: inline;
-    max-width: 40%;
+    max-width: 70%;
     padding-top: 20px; }
   .main_content_icons {
     margin: auto;
